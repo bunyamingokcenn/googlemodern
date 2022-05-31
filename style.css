@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+  }
+  
+  .header a {
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+  }
+  
+  .header a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  .header__right {
+    display: flex;
+    margin-left: auto;
+    min-width: 13vw;
+    justify-content: space-between;
+  }
+  
+  .header__right .header__apps {
+    margin-right: 10px;
+  }
+  
+  /* Main Body */
+  
+  .mainBody {
+    flex: 1;
+    display: flex;
+    margin-top: 12%;
+    flex-direction: column;
+  }
+  
+  .mainBody img {
+    object-fit: contain;
+    height: 100px;
+  }
+  
+  /* search */
+  .search__input {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+  }
+  
+  .search__input input {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+  }
+  
+  .search__input .material-icons {
+    color: gray;
+  }
+  
+  .search__buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .search__buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #f2f2f2;
+    outline: none;
+    border: 1px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px  #000;
+    border-radius: 20px;
+  }
+
+  .footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    background-color: #f2f2f2 ;
+  }
+  
+  .footerli {
+    float: left;
+  }
+  
+  .footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
+  }
+
+  ul.listeleme {
+    list-style-type: none;
+    }
+    li {
+      display: inline-block;
+      
+    }
+  .golgeliKutu {
+  box-shadow: 3px 3px 4px #000;
+}  
